@@ -238,23 +238,38 @@ ls = [ "lahore","Faisalabad","jaranwala"]
 lp = []
 for x in ls:
     lp.insert(0,x)
-print(lp)
+# print(lp)
 
-print(lp)
-print(lp)
-print(lp)
+# print(lp)
+# print(lp)
+# print(lp)
 
+# 17 for loop while loop
+# ls = ["Karachi", "Jaranwala", "Faisalabad"]
+# for x in range(len(ls)):
+#     print(ls[x])
 
+# print("While loop started ")
+# i = 0
+# while i<len(ls):
+#     print(ls[i])
+#     i = i + 1
 
- 
+# 18 range
+# for x in range(0,21,2):
+#     print(x)
 
+# 19 list comprensions
+# ls = [x for x in range(2,10,2)]
+# print(ls)
 
+ls = ["kaRAChi", "jarAnwaLa", "faiSAlabad","kiVi","test"]
+# ls2 = [x for x in ls if ("a" or "v") in x] #first x is expression and second x is item
+# # for x in ls:
+# #     if "K" in x:
+# #         ls2.append(x)
+# print(19)
+# print(ls2)
 
-
-
-
-
-
-
-
-
+# ls2 = [x[0].upper()+x[1:-1].lower()+x[-1:].upper() for x in ls]
+print(ls2)
